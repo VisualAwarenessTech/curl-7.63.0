@@ -1,0 +1,1 @@
+This project should be installed as CURL_DIR with ProjectTool.
