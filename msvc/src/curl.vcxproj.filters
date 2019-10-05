@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\slist_wc.c" />
+    <ClCompile Include="..\..\src\tool_binmode.c" />
+    <ClCompile Include="..\..\src\tool_bname.c" />
+    <ClCompile Include="..\..\src\tool_cb_dbg.c" />
+    <ClCompile Include="..\..\src\tool_cb_hdr.c" />
+    <ClCompile Include="..\..\src\tool_cb_prg.c" />
+    <ClCompile Include="..\..\src\tool_cb_rea.c" />
+    <ClCompile Include="..\..\src\tool_cb_see.c" />
+    <ClCompile Include="..\..\src\tool_cb_wrt.c" />
+    <ClCompile Include="..\..\src\tool_cfgable.c" />
+    <ClCompile Include="..\..\src\tool_convert.c" />
+    <ClCompile Include="..\..\src\tool_dirhie.c" />
+    <ClCompile Include="..\..\src\tool_doswin.c" />
+    <ClCompile Include="..\..\src\tool_easysrc.c" />
+    <ClCompile Include="..\..\src\tool_filetime.c" />
+    <ClCompile Include="..\..\src\tool_formparse.c" />
+    <ClCompile Include="..\..\src\tool_getparam.c" />
+    <ClCompile Include="..\..\src\tool_getpass.c" />
+    <ClCompile Include="..\..\src\tool_help.c" />
+    <ClCompile Include="..\..\src\tool_helpers.c" />
+    <ClCompile Include="..\..\src\tool_homedir.c" />
+    <ClCompile Include=".\tool_hugehelp.c" />
+    <ClCompile Include="..\..\src\tool_libinfo.c" />
+    <ClCompile Include="..\..\src\tool_main.c" />
+    <ClCompile Include="..\..\src\tool_metalink.c" />
+    <ClCompile Include="..\..\src\tool_msgs.c" />
+    <ClCompile Include="..\..\src\tool_operate.c" />
+    <ClCompile Include="..\..\src\tool_operhlp.c" />
+    <ClCompile Include="..\..\src\tool_panykey.c" />
+    <ClCompile Include="..\..\src\tool_paramhlp.c" />
+    <ClCompile Include="..\..\src\tool_parsecfg.c" />
+    <ClCompile Include="..\..\src\tool_strdup.c" />
+    <ClCompile Include="..\..\src\tool_setopt.c" />
+    <ClCompile Include="..\..\src\tool_sleep.c" />
+    <ClCompile Include="..\..\src\tool_urlglob.c" />
+    <ClCompile Include="..\..\src\tool_util.c" />
+    <ClCompile Include="..\..\src\tool_vms.c" />
+    <ClCompile Include="..\..\src\tool_writeout.c" />
+    <ClCompile Include="..\..\src\tool_xattr.c" />
+    <ClCompile Include="..\..\lib\strtoofft.c" />
+    <ClCompile Include="..\..\lib\nonblock.c" />
+    <ClCompile Include="..\..\lib\warnless.c" />
+    <ClCompile Include="..\..\lib\curl_ctype.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\slist_wc.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_binmode.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_bname.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_dbg.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_hdr.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_prg.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_rea.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_see.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_wrt.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cfgable.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_convert.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_dirhie.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_doswin.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_easysrc.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_filetime.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_formparse.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_getparam.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_getpass.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_help.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_helpers.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_homedir.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_hugehelp.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_libinfo.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_main.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_metalink.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_msgs.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_operate.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_operhlp.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_panykey.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_paramhlp.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_parsecfg.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_sdecls.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_setopt.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_setup.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_sleep.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_strdup.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_urlglob.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_util.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_version.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_vms.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_writeout.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_xattr.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\67bc9eae15f8492ff961b16fa09bcfbd\tool_hugehelp.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="K:\Development\op3d_active\curl-7.63.0\src\curl.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ABBC568D-EDF9-3E7E-A932-577E9AC2F9A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F227E093-0DB7-3072-8D87-2139B930A968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl header files">
+      <UniqueIdentifier>{BBAF85F8-50E8-3C3A-B8F9-1BAD09533E16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl source files">
+      <UniqueIdentifier>{7CE553D0-E641-3371-98FE-62AC7B1884F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curlX source files">
+      <UniqueIdentifier>{42A78B9D-B5D5-3F81-A809-3F229F6C8CFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

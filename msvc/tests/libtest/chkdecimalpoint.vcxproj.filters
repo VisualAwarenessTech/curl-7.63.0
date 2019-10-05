@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="K:\Development\op3d_active\curl-7.63.0\tests\libtest\chkdecimalpoint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Development\op3d_active\curl-7.63.0\lib\mprintf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_ctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="K:\Development\op3d_active\curl-7.63.0\tests\libtest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F227E093-0DB7-3072-8D87-2139B930A968}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{99916608-04B4-376F-B1B2-2FF969DA44D0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Test lib654</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lib654.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lib654</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lib654.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lib654</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">lib654.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">lib654</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">lib654.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">lib654</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LIB654;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_DEBUG;_WINDOWS;LIB654;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\libcurl-d_imp.lib;winmm.lib;ws2_32.lib;K:\Development\op3d_active\c-ares-1.10.0\vc\cares\vc141\Win32\vs2017_Release\cares.lib;K:\Development\op3d_active\c-ares-1.10.0\vc\cares\vc141\Win32\vs2017_Release\cares.lib;advapi32.lib;K:\Development\op3d_active\nghttp2-1.39.1\msvc\vc141\Win32\vs2017_Release\nghttp2.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlidec.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlienc.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlidec.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/Debug/lib654.lib</ImportLibrary>
+      <ProgramDataBaseFile>K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/Debug/lib654.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB654;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;LIB654;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\libcurl_imp.lib;winmm.lib;ws2_32.lib;K:\Development\op3d_active\c-ares-1.10.0\vc\cares\vc141\Win32\vs2017_Release\cares.lib;K:\Development\op3d_active\c-ares-1.10.0\vc\cares\vc141\Win32\vs2017_Release\cares.lib;advapi32.lib;K:\Development\op3d_active\nghttp2-1.39.1\msvc\vc141\Win32\vs2017_Release\nghttp2.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlidec.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlienc.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlidec.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/Release/lib654.lib</ImportLibrary>
+      <ProgramDataBaseFile>K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/Release/lib654.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB654;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;LIB654;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\libcurl_imp.lib;winmm.lib;ws2_32.lib;K:\Development\op3d_active\c-ares-1.10.0\vc\cares\vc141\Win32\vs2017_Release\cares.lib;K:\Development\op3d_active\c-ares-1.10.0\vc\cares\vc141\Win32\vs2017_Release\cares.lib;advapi32.lib;K:\Development\op3d_active\nghttp2-1.39.1\msvc\vc141\Win32\vs2017_Release\nghttp2.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlidec.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlienc.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlidec.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/MinSizeRel/lib654.lib</ImportLibrary>
+      <ProgramDataBaseFile>K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/MinSizeRel/lib654.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIB654;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;LIB654;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Development\op3d_active\curl-7.63.0\msvc\include\curl;K:\Development\op3d_active\curl-7.63.0\include;K:\Development\op3d_active\nghttp2-1.39.1\src\includes;K:\Development\op3d_active\curl-7.63.0\lib;K:\Development\op3d_active\curl-7.63.0\msvc\lib;K:\Development\op3d_active\curl-7.63.0\msvc\include;K:\Development\op3d_active\curl-7.63.0\tests\libtest;K:\Development\op3d_active\c-ares-1.10.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\libcurl_imp.lib;winmm.lib;ws2_32.lib;K:\Development\op3d_active\c-ares-1.10.0\vc\cares\vc141\Win32\vs2017_Release\cares.lib;K:\Development\op3d_active\c-ares-1.10.0\vc\cares\vc141\Win32\vs2017_Release\cares.lib;advapi32.lib;K:\Development\op3d_active\nghttp2-1.39.1\msvc\vc141\Win32\vs2017_Release\nghttp2.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlidec.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlienc.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlidec.lib;K:\Development\op3d_active\brotli-1.0.7\msvc\vc141\Win32\vs2017_Release\brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/RelWithDebInfo/lib654.lib</ImportLibrary>
+      <ProgramDataBaseFile>K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/RelWithDebInfo/lib654.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="K:\Development\op3d_active\curl-7.63.0\tests\libtest\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule K:/Development/op3d_active/curl-7.63.0/tests/libtest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SK:/Development/op3d_active/curl-7.63.0 -BK:/Development/op3d_active/curl-7.63.0/msvc --check-stamp-file K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\Makefile.inc.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule K:/Development/op3d_active/curl-7.63.0/tests/libtest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SK:/Development/op3d_active/curl-7.63.0 -BK:/Development/op3d_active/curl-7.63.0/msvc --check-stamp-file K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\Makefile.inc.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule K:/Development/op3d_active/curl-7.63.0/tests/libtest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SK:/Development/op3d_active/curl-7.63.0 -BK:/Development/op3d_active/curl-7.63.0/msvc --check-stamp-file K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\Makefile.inc.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule K:/Development/op3d_active/curl-7.63.0/tests/libtest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SK:/Development/op3d_active/curl-7.63.0 -BK:/Development/op3d_active/curl-7.63.0/msvc --check-stamp-file K:/Development/op3d_active/curl-7.63.0/msvc/tests/libtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\Makefile.inc.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">K:\Development\op3d_active\curl-7.63.0\msvc\tests\libtest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="K:\Development\op3d_active\curl-7.63.0\tests\libtest\lib654.c" />
+    <ClCompile Include="K:\Development\op3d_active\curl-7.63.0\tests\libtest\first.c" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\tests\libtest\test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="K:\Development\op3d_active\curl-7.63.0\msvc\ZERO_CHECK.vcxproj">
+      <Project>{2DDE89EE-6386-301F-9486-5C6DD9767E6D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="K:\Development\op3d_active\curl-7.63.0\msvc\lib\libcurl.vcxproj">
+      <Project>{06AAB18C-7DBD-3ADD-A5A1-1301C6BF73B7}</Project>
+      <Name>libcurl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

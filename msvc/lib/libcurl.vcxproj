@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Debug|Win32">
+      <Configuration>vs2017_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Debug|x64">
+      <Configuration>vs2017_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Release|Win32">
+      <Configuration>vs2017_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Release|x64">
+      <Configuration>vs2017_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{06AAB18C-7DBD-3ADD-A5A1-1301C6BF73B7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>libcurl</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libcurl-d</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">libcurl-d</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libcurl-d</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">libcurl-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libcurl</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">libcurl</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libcurl</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">libcurl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="Debug";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_DEBUG;_WINDOWS;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"Debug\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;cares.lib;cares.lib;advapi32.lib;nghttp2.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;zlib.lib;ssleay32.lib;libeay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(CARES_DIR)\vc\cares\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="Debug";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_DEBUG;_WINDOWS;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"Debug\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;caresd.lib;caresd.lib;advapi32.lib;nghttp2.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;zlib.lib;ssleay32.lib;libeay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(CARES_DIR)\vc\cares\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN64;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="Debug";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_DEBUG;_WINDOWS;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"Debug\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;cares.lib;cares.lib;advapi32.lib;nghttp2.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;zlib.lib;ssleay32.lib;libeay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(CARES_DIR)\vc\cares\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN64;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="Debug";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_DEBUG;_WINDOWS;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"Debug\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;caresd.lib;caresd.lib;advapi32.lib;nghttp2.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;zlib.lib;ssleay32.lib;libeay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(CARES_DIR)\vc\cares\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="Release";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"Release\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;cares.lib;cares.lib;advapi32.lib;nghttp2.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;cares.lib;zlib.lib;ssleay32.lib;libeay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(CARES_DIR)\vc\cares\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="Release";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"Release\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;cares.lib;cares.lib;advapi32.lib;nghttp2.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;cares.lib;zlib.lib;ssleay32.lib;libeay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(CARES_DIR)\vc\cares\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN64;NDEBUG;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="Release";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"Release\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;cares.lib;cares.lib;advapi32.lib;nghttp2.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;cares.lib;zlib.lib;ssleay32.lib;libeay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(CARES_DIR)\vc\cares\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4127</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN64;NDEBUG;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="Release";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"Release\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\include\curl;..\..\include;..\..\..\$(NGHTTP2_DIR)\src\includes;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(CARES_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;cares.lib;cares.lib;advapi32.lib;nghttp2.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;brotlienc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;cares.lib;zlib.lib;ssleay32.lib;libeay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(CARES_DIR)\vc\cares\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\arpa_telnet.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\netrc.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\file.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\timeval.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\hostip.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\progress.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\formdata.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\cookie.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\http.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\sendf.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\ftp.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\url.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\dict.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\if2ip.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\speedcheck.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\urldata.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_ldap.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\escape.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\telnet.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\getinfo.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\strcase.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_sec.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\memdebug.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\http_chunks.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_fnmatch.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\wildcard.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\fileinfo.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\ftplistparser.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\strtok.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\connect.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\llist.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\hash.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\content_encoding.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\share.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_md4.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_md5.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\http_digest.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\http_negotiate.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\inet_pton.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\amigaos.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\strtoofft.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\strerror.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\inet_ntop.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curlx.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_memory.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_setup.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\transfer.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\select.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\easyif.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\multiif.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\parsedate.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\tftp.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\sockaddr.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\splay.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\strdup.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\socks.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\ssh.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_base64.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_addrinfo.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_sspi.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\slist.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\nonblock.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_memrchr.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\imap.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\pop3.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\smtp.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\pingpong.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\rtsp.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_threads.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\warnless.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_hmac.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_rtmp.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_gethostname.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\gopher.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\http_proxy.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\non-ascii.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\asyn.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\http_ntlm.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_gssapi.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_ntlm_wb.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_ntlm_core.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_sasl.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_multibyte.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\hostcheck.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\conncache.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_setup_once.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\multihandle.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\setup-vms.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\pipeline.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\dotdot.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\x509asn1.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\http2.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\sigpipe.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\smb.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_endian.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_des.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_printf.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\system_win32.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\rand.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\mime.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_sha256.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\setopt.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_path.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_ctype.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\curl_range.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\psl.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\doh.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\urlapi-int.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vauth\vauth.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vauth\digest.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vauth\ntlm.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\openssl.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\vtls.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\gtls.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\nssg.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\polarssl.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\polarssl_threadlock.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\cyassl.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\schannel.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\darwinssl.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\gskit.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\mbedtls.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\lib\vtls\mesalink.h" />
+    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\msvc\lib\curl_config.h" />
+    <ClCompile Include="..\..\lib\file.c" />
+    <ClCompile Include="..\..\lib\timeval.c" />
+    <ClCompile Include="..\..\lib\base64.c" />
+    <ClCompile Include="..\..\lib\hostip.c" />
+    <ClCompile Include="..\..\lib\progress.c" />
+    <ClCompile Include="..\..\lib\formdata.c" />
+    <ClCompile Include="..\..\lib\cookie.c" />
+    <ClCompile Include="..\..\lib\http.c" />
+    <ClCompile Include="..\..\lib\sendf.c" />
+    <ClCompile Include="..\..\lib\ftp.c" />
+    <ClCompile Include="..\..\lib\url.c" />
+    <ClCompile Include="..\..\lib\dict.c" />
+    <ClCompile Include="..\..\lib\if2ip.c" />
+    <ClCompile Include="..\..\lib\speedcheck.c" />
+    <ClCompile Include="..\..\lib\ldap.c" />
+    <ClCompile Include="..\..\lib\version.c" />
+    <ClCompile Include="..\..\lib\getenv.c" />
+    <ClCompile Include="..\..\lib\escape.c" />
+    <ClCompile Include="..\..\lib\mprintf.c" />
+    <ClCompile Include="..\..\lib\telnet.c" />
+    <ClCompile Include="..\..\lib\netrc.c" />
+    <ClCompile Include="..\..\lib\getinfo.c" />
+    <ClCompile Include="..\..\lib\transfer.c" />
+    <ClCompile Include="..\..\lib\strcase.c" />
+    <ClCompile Include="..\..\lib\easy.c" />
+    <ClCompile Include="..\..\lib\security.c" />
+    <ClCompile Include="..\..\lib\curl_fnmatch.c" />
+    <ClCompile Include="..\..\lib\fileinfo.c" />
+    <ClCompile Include="..\..\lib\ftplistparser.c" />
+    <ClCompile Include="..\..\lib\wildcard.c" />
+    <ClCompile Include="..\..\lib\krb5.c" />
+    <ClCompile Include="..\..\lib\memdebug.c" />
+    <ClCompile Include="..\..\lib\http_chunks.c" />
+    <ClCompile Include="..\..\lib\strtok.c" />
+    <ClCompile Include="..\..\lib\connect.c" />
+    <ClCompile Include="..\..\lib\llist.c" />
+    <ClCompile Include="..\..\lib\hash.c" />
+    <ClCompile Include="..\..\lib\multi.c" />
+    <ClCompile Include="..\..\lib\content_encoding.c" />
+    <ClCompile Include="..\..\lib\share.c" />
+    <ClCompile Include="..\..\lib\http_digest.c" />
+    <ClCompile Include="..\..\lib\md4.c" />
+    <ClCompile Include="..\..\lib\md5.c" />
+    <ClCompile Include="..\..\lib\http_negotiate.c" />
+    <ClCompile Include="..\..\lib\inet_pton.c" />
+    <ClCompile Include="..\..\lib\strtoofft.c" />
+    <ClCompile Include="..\..\lib\strerror.c" />
+    <ClCompile Include="..\..\lib\amigaos.c" />
+    <ClCompile Include="..\..\lib\hostasyn.c" />
+    <ClCompile Include="..\..\lib\hostip4.c" />
+    <ClCompile Include="..\..\lib\hostip6.c" />
+    <ClCompile Include="..\..\lib\hostsyn.c" />
+    <ClCompile Include="..\..\lib\inet_ntop.c" />
+    <ClCompile Include="..\..\lib\parsedate.c" />
+    <ClCompile Include="..\..\lib\select.c" />
+    <ClCompile Include="..\..\lib\tftp.c" />
+    <ClCompile Include="..\..\lib\splay.c" />
+    <ClCompile Include="..\..\lib\strdup.c" />
+    <ClCompile Include="..\..\lib\socks.c" />
+    <ClCompile Include="..\..\lib\ssh.c" />
+    <ClCompile Include="..\..\lib\ssh-libssh.c" />
+    <ClCompile Include="..\..\lib\curl_addrinfo.c" />
+    <ClCompile Include="..\..\lib\socks_gssapi.c" />
+    <ClCompile Include="..\..\lib\socks_sspi.c" />
+    <ClCompile Include="..\..\lib\curl_sspi.c" />
+    <ClCompile Include="..\..\lib\slist.c" />
+    <ClCompile Include="..\..\lib\nonblock.c" />
+    <ClCompile Include="..\..\lib\curl_memrchr.c" />
+    <ClCompile Include="..\..\lib\imap.c" />
+    <ClCompile Include="..\..\lib\pop3.c" />
+    <ClCompile Include="..\..\lib\smtp.c" />
+    <ClCompile Include="..\..\lib\pingpong.c" />
+    <ClCompile Include="..\..\lib\rtsp.c" />
+    <ClCompile Include="..\..\lib\curl_threads.c" />
+    <ClCompile Include="..\..\lib\warnless.c" />
+    <ClCompile Include="..\..\lib\hmac.c" />
+    <ClCompile Include="..\..\lib\curl_rtmp.c" />
+    <ClCompile Include="..\..\lib\openldap.c" />
+    <ClCompile Include="..\..\lib\curl_gethostname.c" />
+    <ClCompile Include="..\..\lib\gopher.c" />
+    <ClCompile Include="..\..\lib\idn_win32.c" />
+    <ClCompile Include="..\..\lib\http_proxy.c" />
+    <ClCompile Include="..\..\lib\non-ascii.c" />
+    <ClCompile Include="..\..\lib\asyn-ares.c" />
+    <ClCompile Include="..\..\lib\asyn-thread.c" />
+    <ClCompile Include="..\..\lib\curl_gssapi.c" />
+    <ClCompile Include="..\..\lib\http_ntlm.c" />
+    <ClCompile Include="..\..\lib\curl_ntlm_wb.c" />
+    <ClCompile Include="..\..\lib\curl_ntlm_core.c" />
+    <ClCompile Include="..\..\lib\curl_sasl.c" />
+    <ClCompile Include="..\..\lib\rand.c" />
+    <ClCompile Include="..\..\lib\curl_multibyte.c" />
+    <ClCompile Include="..\..\lib\hostcheck.c" />
+    <ClCompile Include="..\..\lib\conncache.c" />
+    <ClCompile Include="..\..\lib\pipeline.c" />
+    <ClCompile Include="..\..\lib\dotdot.c" />
+    <ClCompile Include="..\..\lib\x509asn1.c" />
+    <ClCompile Include="..\..\lib\http2.c" />
+    <ClCompile Include="..\..\lib\smb.c" />
+    <ClCompile Include="..\..\lib\curl_endian.c" />
+    <ClCompile Include="..\..\lib\curl_des.c" />
+    <ClCompile Include="..\..\lib\system_win32.c" />
+    <ClCompile Include="..\..\lib\mime.c" />
+    <ClCompile Include="..\..\lib\sha256.c" />
+    <ClCompile Include="..\..\lib\setopt.c" />
+    <ClCompile Include="..\..\lib\curl_path.c" />
+    <ClCompile Include="..\..\lib\curl_ctype.c" />
+    <ClCompile Include="..\..\lib\curl_range.c" />
+    <ClCompile Include="..\..\lib\psl.c" />
+    <ClCompile Include="..\..\lib\doh.c" />
+    <ClCompile Include="..\..\lib\urlapi.c" />
+    <ClCompile Include="..\..\lib\vauth\vauth.c" />
+    <ClCompile Include="..\..\lib\vauth\cleartext.c" />
+    <ClCompile Include="..\..\lib\vauth\cram.c" />
+    <ClCompile Include="..\..\lib\vauth\digest.c" />
+    <ClCompile Include="..\..\lib\vauth\digest_sspi.c" />
+    <ClCompile Include="..\..\lib\vauth\krb5_gssapi.c" />
+    <ClCompile Include="..\..\lib\vauth\krb5_sspi.c" />
+    <ClCompile Include="..\..\lib\vauth\ntlm.c" />
+    <ClCompile Include="..\..\lib\vauth\ntlm_sspi.c" />
+    <ClCompile Include="..\..\lib\vauth\oauth2.c" />
+    <ClCompile Include="..\..\lib\vauth\spnego_gssapi.c" />
+    <ClCompile Include="..\..\lib\vauth\spnego_sspi.c" />
+    <ClCompile Include="..\..\lib\vtls\openssl.c" />
+    <ClCompile Include="..\..\lib\vtls\gtls.c" />
+    <ClCompile Include="..\..\lib\vtls\vtls.c" />
+    <ClCompile Include="..\..\lib\vtls\nss.c" />
+    <ClCompile Include="..\..\lib\vtls\polarssl.c" />
+    <ClCompile Include="..\..\lib\vtls\polarssl_threadlock.c" />
+    <ClCompile Include="..\..\lib\vtls\cyassl.c" />
+    <ClCompile Include="..\..\lib\vtls\schannel.c" />
+    <ClCompile Include="..\..\lib\vtls\schannel_verify.c" />
+    <ClCompile Include="..\..\lib\vtls\darwinssl.c" />
+    <ClCompile Include="..\..\lib\vtls\gskit.c" />
+    <ClCompile Include="..\..\lib\vtls\mbedtls.c" />
+    <ClCompile Include="..\..\lib\vtls\mesalink.c" />
+    <ResourceCompile Include="K:\Development\op3d_active\curl-7.63.0\lib\libcurl.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZERO_CHECK.vcxproj">
+      <Project>{2DDE89EE-6386-301F-9486-5C6DD9767E6D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

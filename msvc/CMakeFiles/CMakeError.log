@@ -1,0 +1,2137 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_77103.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77103.dir\Debug\\" /Fd"cmTC_77103.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_77103.vcxproj]
+
+
+Determining if files ;winldap.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_d64fe.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d64fe.dir\Debug\\" /Fd"cmTC_d64fe.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_WINLDAP_H.c"
+  HAVE_WINLDAP_H.c
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winnt.h(154): fatal error C1189: #error:  "No Target Architecture" [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_d64fe.vcxproj]
+
+Source:
+/* */
+#include <winldap.h>
+
+
+int main(void){return 0;}
+
+Determining if files ;winber.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_6af48.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6af48.dir\Debug\\" /Fd"cmTC_6af48.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_WINBER_H.c"
+  HAVE_WINBER_H.c
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(67): error C2061: syntax error: identifier 'BerElement' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(67): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(67): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(67): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(67): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(76): error C2061: syntax error: identifier 'VOID' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(76): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(76): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(76): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(76): error C2146: syntax error: missing ';' before identifier 'fbuf' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(76): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(84): error C2061: syntax error: identifier 'VOID' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(84): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(84): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(84): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(84): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(91): error C2061: syntax error: identifier 'VOID' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(91): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(91): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(91): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(91): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(97): error C2061: syntax error: identifier 'BERVAL' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(97): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(97): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(97): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(97): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(108): error C2061: syntax error: identifier 'BerElement' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(108): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(108): error C2146: syntax error: missing ')' before identifier 'options' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(108): error C2061: syntax error: identifier 'options' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(108): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(124): error C2061: syntax error: identifier 'ULONG' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(124): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(124): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(124): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(124): error C2143: syntax error: missing ';' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(124): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(135): error C2061: syntax error: identifier 'ULONG' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(135): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(135): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(135): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(135): error C2143: syntax error: missing ';' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(135): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(146): error C2061: syntax error: identifier 'ULONG' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(146): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(146): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(146): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(146): error C2143: syntax error: missing ';' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(146): error C2146: syntax error: missing ';' before identifier 'CHAR' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(146): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(156): error C2061: syntax error: identifier 'ULONG' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(156): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(156): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(156): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(156): error C2143: syntax error: missing ';' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(156): error C2146: syntax error: missing ';' before identifier 'CHAR' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(156): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(165): error C2061: syntax error: identifier 'INT' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(165): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(165): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(165): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(165): error C2143: syntax error: missing ';' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(165): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(248): error C2061: syntax error: identifier 'INT' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(248): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(248): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(248): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(248): error C2146: syntax error: missing ';' before identifier 'PSTR' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(248): error C2061: syntax error: identifier 'fmt' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(248): error C2059: syntax error: ',' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(248): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(340): error C2061: syntax error: identifier 'ULONG' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(340): error C2059: syntax error: ';' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(340): error C2143: syntax error: missing ')' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(340): error C2143: syntax error: missing '{' before '*' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(340): error C2146: syntax error: missing ';' before identifier 'PSTR' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(340): error C2061: syntax error: identifier 'fmt' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(340): error C2059: syntax error: ',' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winber.h(340): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6af48.vcxproj]
+
+Source:
+/* */
+#include <winber.h>
+
+
+int main(void){return 0;}
+
+Determining if files ;ldap_ssl.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_78b5e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78b5e.dir\Debug\\" /Fd"cmTC_78b5e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_SSL_H.c"
+  HAVE_LDAP_SSL_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_SSL_H.c(2): fatal error C1083: Cannot open include file: 'ldap_ssl.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_78b5e.vcxproj]
+
+Source:
+/* */
+#include <ldap_ssl.h>
+
+
+int main(void){return 0;}
+
+Determining if files ;ldapssl.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_5c434.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c434.dir\Debug\\" /Fd"cmTC_5c434.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_LDAPSSL_H.c"
+  HAVE_LDAPSSL_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_LDAPSSL_H.c(2): fatal error C1083: Cannot open include file: 'ldapssl.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_5c434.vcxproj]
+
+Source:
+/* */
+#include <ldapssl.h>
+
+
+int main(void){return 0;}
+
+Determining if the function idn2_lookup_ul exists in the idn2;wldap32;winmm;ws2_32;advapi32 failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_e203b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=idn2_lookup_ul /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e203b.dir\Debug\\" /Fd"cmTC_e203b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+LINK : fatal error LNK1104: cannot open file 'idn2.lib' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_e203b.vcxproj]
+
+
+Performing C SOURCE FILE Test USE_UNIX_SOCKETS failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_90e32.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D USE_UNIX_SOCKETS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90e32.dir\Debug\\" /Fd"cmTC_90e32.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: Cannot open include file: 'sys/un.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_90e32.vcxproj]
+
+Source file was:
+
+#include <sys/un.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_un *)0)->sun_path);
+   return 0;
+}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/filio.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_eb59e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb59e.dir\Debug\\" /Fd"cmTC_eb59e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c"
+  HAVE_SYS_FILIO_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c(7): fatal error C1083: Cannot open include file: 'sys/filio.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb59e.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/ioctl.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_a3ab6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3ab6.dir\Debug\\" /Fd"cmTC_a3ab6.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c"
+  HAVE_SYS_IOCTL_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(7): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_a3ab6.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/resource.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_397e0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_397e0.dir\Debug\\" /Fd"cmTC_397e0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c"
+  HAVE_SYS_RESOURCE_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c(7): fatal error C1083: Cannot open include file: 'sys/resource.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_397e0.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/resource.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/uio.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_71da1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71da1.dir\Debug\\" /Fd"cmTC_71da1.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c"
+  HAVE_SYS_UIO_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c(9): fatal error C1083: Cannot open include file: 'sys/uio.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_71da1.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/un.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_43ca0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43ca0.dir\Debug\\" /Fd"cmTC_43ca0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c"
+  HAVE_SYS_UN_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c(9): fatal error C1083: Cannot open include file: 'sys/un.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_43ca0.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/un.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;sys/xattr.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_b002d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b002d.dir\Debug\\" /Fd"cmTC_b002d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c"
+  HAVE_SYS_XATTR_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c(10): fatal error C1083: Cannot open include file: 'sys/xattr.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_b002d.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <sys/xattr.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;arpa/tftp.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_7bd4b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7bd4b.dir\Debug\\" /Fd"cmTC_7bd4b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c"
+  HAVE_ARPA_TFTP_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c(10): fatal error C1083: Cannot open include file: 'arpa/tftp.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_7bd4b.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <arpa/tftp.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;crypto.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_ced5e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ced5e.dir\Debug\\" /Fd"cmTC_ced5e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c"
+  HAVE_CRYPTO_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c(11): fatal error C1083: Cannot open include file: 'crypto.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_ced5e.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <crypto.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;des.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_b84c0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b84c0.dir\Debug\\" /Fd"cmTC_b84c0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c"
+  HAVE_DES_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c(11): fatal error C1083: Cannot open include file: 'des.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_b84c0.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <des.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;err.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_bc05c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc05c.dir\Debug\\" /Fd"cmTC_bc05c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c"
+  HAVE_ERR_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c(11): fatal error C1083: Cannot open include file: 'err.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_bc05c.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <err.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;idn2.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_18f19.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18f19.dir\Debug\\" /Fd"cmTC_18f19.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c"
+  HAVE_IDN2_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c(13): fatal error C1083: Cannot open include file: 'idn2.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_18f19.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;ifaddrs.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_5b284.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5b284.dir\Debug\\" /Fd"cmTC_5b284.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c"
+  HAVE_IFADDRS_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c(13): fatal error C1083: Cannot open include file: 'ifaddrs.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_5b284.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;krb.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_f2ecf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f2ecf.dir\Debug\\" /Fd"cmTC_f2ecf.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c"
+  HAVE_KRB_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c(14): fatal error C1083: Cannot open include file: 'krb.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_f2ecf.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <krb.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_4cf1f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4cf1f.dir\Debug\\" /Fd"cmTC_4cf1f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c"
+  HAVE_LIBGEN_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c(14): fatal error C1083: Cannot open include file: 'libgen.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_4cf1f.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;netinet/tcp.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_9ede2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ede2.dir\Debug\\" /Fd"cmTC_9ede2.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c"
+  HAVE_NETINET_TCP_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c(15): fatal error C1083: Cannot open include file: 'netinet/tcp.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_9ede2.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <netinet/tcp.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;pem.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_bcc4a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bcc4a.dir\Debug\\" /Fd"cmTC_bcc4a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c"
+  HAVE_PEM_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c(15): fatal error C1083: Cannot open include file: 'pem.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_bcc4a.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <pem.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;poll.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_4ddc5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ddc5.dir\Debug\\" /Fd"cmTC_4ddc5.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c"
+  HAVE_POLL_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c(15): fatal error C1083: Cannot open include file: 'poll.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_4ddc5.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <poll.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;rsa.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_88d6c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88d6c.dir\Debug\\" /Fd"cmTC_88d6c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c"
+  HAVE_RSA_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c(15): fatal error C1083: Cannot open include file: 'rsa.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_88d6c.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <rsa.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;ssl.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_624a5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_624a5.dir\Debug\\" /Fd"cmTC_624a5.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c"
+  HAVE_SSL_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c(17): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_624a5.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <ssl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;stropts.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_c6b91.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6b91.dir\Debug\\" /Fd"cmTC_c6b91.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c"
+  HAVE_STROPTS_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c(21): fatal error C1083: Cannot open include file: 'stropts.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_c6b91.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h;malloc.h;memory.h;sys/utsname.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_e7036.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7036.dir\Debug\\" /Fd"cmTC_e7036.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c"
+  HAVE_SYS_UTSNAME_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c(26): fatal error C1083: Cannot open include file: 'sys/utsname.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_e7036.vcxproj]
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+#include <sys/utsname.h>
+
+
+int main(void){return 0;}
+
+Determining size of ssize_t failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_51796.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51796.dir\Debug\\" /Fd"cmTC_51796.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c"
+  SIZEOF_SSIZE_T.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(24): error C2065: 'ssize_t': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_51796.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(25): error C2065: 'ssize_t': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_51796.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(26): error C2065: 'ssize_t': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_51796.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(27): error C2065: 'ssize_t': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_51796.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(28): error C2065: 'ssize_t': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_51796.vcxproj]
+
+K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:
+#include <sys/types.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the basename exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_81982.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81982.dir\Debug\\" /Fd"cmTC_81982.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'basename': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_81982.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef basename
+  return ((int*)(&basename))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncmpi exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_807f0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_807f0.dir\Debug\\" /Fd"cmTC_807f0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'strncmpi': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_807f0.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the alarm exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_e47e6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e47e6.dir\Debug\\" /Fd"cmTC_e47e6.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'alarm': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_e47e6.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alarm
+  return ((int*)(&alarm))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getpwuid_r exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_acde5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_acde5.dir\Debug\\" /Fd"cmTC_acde5.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'getpwuid_r': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_acde5.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpwuid_r
+  return ((int*)(&getpwuid_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_r exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_5e86d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e86d.dir\Debug\\" /Fd"cmTC_5e86d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'strerror_r': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_5e86d.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the siginterrupt exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_a0540.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0540.dir\Debug\\" /Fd"cmTC_a0540.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'siginterrupt': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_a0540.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef siginterrupt
+  return ((int*)(&siginterrupt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fork exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_cda2f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cda2f.dir\Debug\\" /Fd"cmTC_cda2f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'fork': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_cda2f.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fork
+  return ((int*)(&fork))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the freeifaddrs exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_e20ee.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e20ee.dir\Debug\\" /Fd"cmTC_e20ee.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'freeifaddrs': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_e20ee.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeifaddrs
+  return ((int*)(&freeifaddrs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pipe exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_0804d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0804d.dir\Debug\\" /Fd"cmTC_0804d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'pipe': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_0804d.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pipe
+  return ((int*)(&pipe))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ftruncate exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_be185.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be185.dir\Debug\\" /Fd"cmTC_be185.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'ftruncate': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_be185.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftruncate
+  return ((int*)(&ftruncate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrlimit exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_3615f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3615f.dir\Debug\\" /Fd"cmTC_3615f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'getrlimit': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_3615f.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setrlimit exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_1bc54.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1bc54.dir\Debug\\" /Fd"cmTC_1bc54.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'setrlimit': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_1bc54.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fcntl exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_67e08.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67e08.dir\Debug\\" /Fd"cmTC_67e08.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'fcntl': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_67e08.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctl exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_9bbab.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bbab.dir\Debug\\" /Fd"cmTC_9bbab.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'ioctl': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_9bbab.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_91728.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mach_absolute_time /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91728.dir\Debug\\" /Fd"cmTC_91728.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mach_absolute_time referenced in function _main [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_91728.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_91728.exe : fatal error LNK1120: 1 unresolved externals [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_91728.vcxproj]
+
+
+Determining if the function inet_pton exists failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_976fc.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_976fc.dir\Debug\\" /Fd"cmTC_976fc.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _inet_pton referenced in function _main [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_976fc.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_976fc.exe : fatal error LNK1120: 1 unresolved externals [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_976fc.vcxproj]
+
+
+Determining if the fsetxattr exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_5c452.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c452.dir\Debug\\" /Fd"cmTC_5c452.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: 'fsetxattr': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_5c452.vcxproj]
+
+File K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsetxattr
+  return ((int*)(&fsetxattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing Curl Test HAVE_FCNTL_O_NONBLOCK failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_7ad65.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_FCNTL_O_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7ad65.dir\Debug\\" /Fd"cmTC_7ad65.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(44): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_7ad65.vcxproj]
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_05fd7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05fd7.dir\Debug\\" /Fd"cmTC_05fd7.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(350): warning C4013: 'IoctlSocket' undefined; assuming extern returning int [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_05fd7.vcxproj]
+CurlTests.obj : error LNK2019: unresolved external symbol _IoctlSocket referenced in function _main [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_05fd7.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_05fd7.exe : fatal error LNK1120: 1 unresolved externals [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_05fd7.vcxproj]
+
+Performing Curl Test HAVE_IOCTL_FIONBIO failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_ee480.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee480.dir\Debug\\" /Fd"cmTC_ee480.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(436): warning C4013: 'ioctl' undefined; assuming extern returning int [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_ee480.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(436): error C2065: 'FIONBIO': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_ee480.vcxproj]
+
+Performing Curl Test HAVE_IOCTL_SIOCGIFADDR failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_42311.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTL_SIOCGIFADDR /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42311.dir\Debug\\" /Fd"cmTC_42311.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(461): fatal error C1083: Cannot open include file: 'net/if.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_42311.vcxproj]
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_27000.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SETSOCKOPT_SO_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27000.dir\Debug\\" /Fd"cmTC_27000.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(501): error C2065: 'SO_NONBLOCK': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_27000.vcxproj]
+
+Performing Curl Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_82c7b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82c7b.dir\Debug\\" /Fd"cmTC_82c7b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_82c7b.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_82c7b.exe : fatal error LNK1120: 1 unresolved externals [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_82c7b.vcxproj]
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_5ba33.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_FILE_OFFSET_BITS /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ba33.dir\Debug\\" /Fd"cmTC_5ba33.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(295): warning C4293: '<<': shift count negative or too big, undefined behavior [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_5ba33.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(296): warning C4293: '<<': shift count negative or too big, undefined behavior [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_5ba33.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(297): error C2118: negative subscript [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_5ba33.vcxproj]
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_b19c2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_GLIBC_STRERROR_R /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b19c2.dir\Debug\\" /Fd"cmTC_b19c2.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c"
+  CurlTests.c
+  
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(517): warning C4013: 'strerror_r' undefined; assuming extern returning int [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_b19c2.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(517): error C2109: subscript requires array or pointer type [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_b19c2.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(517): error C2198: 'check': too few arguments for call [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_b19c2.vcxproj]
+
+Performing Curl Test HAVE_POSIX_STRERROR_R failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_b06f4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_POSIX_STRERROR_R /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b06f4.dir\Debug\\" /Fd"cmTC_b06f4.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c"
+  CurlTests.c
+  
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(532): warning C4013: 'strerror_r' undefined; assuming extern returning int [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_b06f4.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(532): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_b06f4.vcxproj]
+CurlTests.obj : error LNK2019: unresolved external symbol _strerror_r referenced in function _main [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_b06f4.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b06f4.exe : fatal error LNK1120: 1 unresolved externals [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_b06f4.vcxproj]
+
+Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_6ad4c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CLOCK_GETTIME_MONOTONIC /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ad4c.dir\Debug\\" /Fd"cmTC_6ad4c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(557): warning C4013: 'clock_gettime' undefined; assuming extern returning int [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6ad4c.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(557): error C2065: 'CLOCK_MONOTONIC': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_6ad4c.vcxproj]
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_d2914.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_AVAILABLE /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2914.dir\Debug\\" /Fd"cmTC_d2914.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(564): warning C4013: '__builtin_available' undefined; assuming extern returning int [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_d2914.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(564): error C2065: 'macOS': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_d2914.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(564): error C2143: syntax error: missing ')' before 'constant' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_d2914.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\CMake\CurlTests.c(564): error C2059: syntax error: ')' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_d2914.vcxproj]
+
+Performing C SOURCE FILE Test HAVE_MSG_NOSIGNAL failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_d5654.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"K:\Development\op3d_active\curl-7.63.0\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_MSG_NOSIGNAL /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5654.dir\Debug\\" /Fd"cmTC_d5654.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\src.c(9): error C2065: 'MSG_NOSIGNAL': undeclared identifier [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_d5654.vcxproj]
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+  int main(void) {
+    int flag = MSG_NOSIGNAL;
+    (void)flag;
+    return 0;
+  }
+Performing C SOURCE FILE Test HAVE_POLL_FINE failed with the following compile output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_47aa3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"K:\Development\op3d_active\curl-7.63.0\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_POLL_FINE /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47aa3.dir\Debug\\" /Fd"cmTC_47aa3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\src.c(6): warning C4013: 'poll' undefined; assuming extern returning int [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_47aa3.vcxproj]
+src.obj : error LNK2019: unresolved external symbol _poll referenced in function _main [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_47aa3.vcxproj]
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_47aa3.exe : fatal error LNK1120: 1 unresolved externals [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_47aa3.vcxproj]
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+    #ifdef HAVE_SYS_POLL_H
+    #  include <sys/poll.h>
+    #endif
+    int main(void) {
+      return poll((void *)0, 0, 10 /*ms*/);
+    }
+Determining if the include file openssl/ssl.h exists failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_c90ae.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"K:\Development\op3d_active\openssl-1.0.2h\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c90ae.dir\Debug\\" /Fd"cmTC_c90ae.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+k:\development\op3d_active\openssl-1.0.2h\include\openssl\../../ssl/dtls1.h(227): error C2079: 'next_timeout' uses undefined struct 'timeval' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_c90ae.vcxproj]
+
+
+Determining if the function ldap_init exists in the ldap;winmm;ws2_32;K:/Development/op3d_active/c-ares-1.10.0/vc/cares/vc141/Win32/vs2017_Release/cares.lib;K:/Development/op3d_active/c-ares-1.10.0/vc/cares/vc141/Win32/vs2017_Release/cares.lib;advapi32;OpenSSL::SSL;OpenSSL::Crypto;K:/Development/op3d_active/nghttp2-1.39.1/msvc/vc141/Win32/vs2017_Release/nghttp2.lib failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_200f1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"K:\Development\op3d_active\openssl-1.0.2h\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=ldap_init /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_200f1.dir\Debug\\" /Fd"cmTC_200f1.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+LINK : fatal error LNK1104: cannot open file 'ldap.lib' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_200f1.vcxproj]
+
+
+Determining if the function ber_init exists in the lber;winmm;ws2_32;K:/Development/op3d_active/c-ares-1.10.0/vc/cares/vc141/Win32/vs2017_Release/cares.lib;K:/Development/op3d_active/c-ares-1.10.0/vc/cares/vc141/Win32/vs2017_Release/cares.lib;advapi32;OpenSSL::SSL;OpenSSL::Crypto;K:/Development/op3d_active/nghttp2-1.39.1/msvc/vc141/Win32/vs2017_Release/nghttp2.lib failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_a1170.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"K:\Development\op3d_active\openssl-1.0.2h\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=ber_init /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1170.dir\Debug\\" /Fd"cmTC_a1170.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+LINK : fatal error LNK1104: cannot open file 'lber.lib' [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_a1170.vcxproj]
+
+
+Determining if files ;ldap.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_d52e5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"K:\Development\op3d_active\openssl-1.0.2h\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d52e5.dir\Debug\\" /Fd"cmTC_d52e5.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_H.c"
+  HAVE_LDAP_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_H.c(2): fatal error C1083: Cannot open include file: 'ldap.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_d52e5.vcxproj]
+
+Source:
+/* */
+#include <ldap.h>
+
+
+int main(void){return 0;}
+
+Determining if files ;lber.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/curl-7.63.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_d270f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"K:\Development\op3d_active\openssl-1.0.2h\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d270f.dir\Debug\\" /Fd"cmTC_d270f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_LBER_H.c"
+  HAVE_LBER_H.c
+  
+K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_LBER_H.c(2): fatal error C1083: Cannot open include file: 'lber.h': No such file or directory [K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\CMakeTmp\cmTC_d270f.vcxproj]
+
+Source:
+/* */
+#include <lber.h>
+
+
+int main(void){return 0;}
+
