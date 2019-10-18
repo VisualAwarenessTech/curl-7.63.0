@@ -494,7 +494,7 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="K:\Development\op3d_active\curl-7.63.0\msvc\CMakeFiles\67bc9eae15f8492ff961b16fa09bcfbd\tool_hugehelp.c.rule">
+    <CustomBuild Include="..\CMakeFiles\67bc9eae15f8492ff961b16fa09bcfbd\tool_hugehelp.c.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating tool_hugehelp.c</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">Generating tool_hugehelp.c</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating tool_hugehelp.c</Message>
@@ -745,49 +745,49 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\..\lib\nonblock.c" />
     <ClCompile Include="..\..\lib\warnless.c" />
     <ClCompile Include="..\..\lib\curl_ctype.c" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\slist_wc.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_binmode.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_bname.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_dbg.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_hdr.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_prg.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_rea.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_see.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cb_wrt.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_cfgable.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_convert.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_dirhie.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_doswin.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_easysrc.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_filetime.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_formparse.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_getparam.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_getpass.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_help.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_helpers.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_homedir.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_hugehelp.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_libinfo.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_main.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_metalink.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_msgs.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_operate.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_operhlp.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_panykey.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_paramhlp.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_parsecfg.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_sdecls.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_setopt.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_setup.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_sleep.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_strdup.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_urlglob.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_util.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_version.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_vms.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_writeout.h" />
-    <ClInclude Include="K:\Development\op3d_active\curl-7.63.0\src\tool_xattr.h" />
-    <ResourceCompile Include="K:\Development\op3d_active\curl-7.63.0\src\curl.rc" />
+    <ClInclude Include="..\..\src\slist_wc.h" />
+    <ClInclude Include="..\..\src\tool_binmode.h" />
+    <ClInclude Include="..\..\src\tool_bname.h" />
+    <ClInclude Include="..\..\src\tool_cb_dbg.h" />
+    <ClInclude Include="..\..\src\tool_cb_hdr.h" />
+    <ClInclude Include="..\..\src\tool_cb_prg.h" />
+    <ClInclude Include="..\..\src\tool_cb_rea.h" />
+    <ClInclude Include="..\..\src\tool_cb_see.h" />
+    <ClInclude Include="..\..\src\tool_cb_wrt.h" />
+    <ClInclude Include="..\..\src\tool_cfgable.h" />
+    <ClInclude Include="..\..\src\tool_convert.h" />
+    <ClInclude Include="..\..\src\tool_dirhie.h" />
+    <ClInclude Include="..\..\src\tool_doswin.h" />
+    <ClInclude Include="..\..\src\tool_easysrc.h" />
+    <ClInclude Include="..\..\src\tool_filetime.h" />
+    <ClInclude Include="..\..\src\tool_formparse.h" />
+    <ClInclude Include="..\..\src\tool_getparam.h" />
+    <ClInclude Include="..\..\src\tool_getpass.h" />
+    <ClInclude Include="..\..\src\tool_help.h" />
+    <ClInclude Include="..\..\src\tool_helpers.h" />
+    <ClInclude Include="..\..\src\tool_homedir.h" />
+    <ClInclude Include="..\..\src\tool_hugehelp.h" />
+    <ClInclude Include="..\..\src\tool_libinfo.h" />
+    <ClInclude Include="..\..\src\tool_main.h" />
+    <ClInclude Include="..\..\src\tool_metalink.h" />
+    <ClInclude Include="..\..\src\tool_msgs.h" />
+    <ClInclude Include="..\..\src\tool_operate.h" />
+    <ClInclude Include="..\..\src\tool_operhlp.h" />
+    <ClInclude Include="..\..\src\tool_panykey.h" />
+    <ClInclude Include="..\..\src\tool_paramhlp.h" />
+    <ClInclude Include="..\..\src\tool_parsecfg.h" />
+    <ClInclude Include="..\..\src\tool_sdecls.h" />
+    <ClInclude Include="..\..\src\tool_setopt.h" />
+    <ClInclude Include="..\..\src\tool_setup.h" />
+    <ClInclude Include="..\..\src\tool_sleep.h" />
+    <ClInclude Include="..\..\src\tool_strdup.h" />
+    <ClInclude Include="..\..\src\tool_urlglob.h" />
+    <ClInclude Include="..\..\src\tool_util.h" />
+    <ClInclude Include="..\..\src\tool_version.h" />
+    <ClInclude Include="..\..\src\tool_vms.h" />
+    <ClInclude Include="..\..\src\tool_writeout.h" />
+    <ClInclude Include="..\..\src\tool_xattr.h" />
+    <ResourceCompile Include="..\..\src\curl.rc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ZERO_CHECK.vcxproj">
